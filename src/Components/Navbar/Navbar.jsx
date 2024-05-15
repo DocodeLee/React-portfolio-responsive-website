@@ -1,6 +1,7 @@
-import React,{useState} from 'react'
+import React, { useState }  from 'react'
 import './Navbar.css'
 import MobileNav from '../MobileNav/MobileNav';
+
 
 const Navbar = () => {
   const [openMenu, setOpenMmenu] =useState(false);
@@ -39,11 +40,13 @@ const Navbar = () => {
         Hire Me
         </button>
     </ul>
-    <button className='menu-btn' onClick={(toggleMenu)}>
-    <i className="fa-solid fa-bars">
-      {openMenu ? "close":"menu"}
-    </i>
-    
+    <button className='menu-btn' onClick={toggleMenu}>
+    <span
+     className={"material-symbols-outlined"}
+     >
+    {/* <i class="fa-solid fa-bars"></i> */}
+    {openMenu ? "Cl": "M"}
+     </span>
     </button>
     </div>
     </nav>

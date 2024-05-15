@@ -7,8 +7,8 @@ import './MobileNav.css'
 const MobileNav = ({isOpen, toggleMenu}) => {
   return (
   <>
-  <div className={`mobile-menu ${isOpen ? "active" : ""}`}
-  onClick={toggleMenu}>
+  <div className={`mobile-menu ${isOpen ? "active" : " "}`}
+  onClick={toggleMenu}  >
     <div className="mobile-menu-container">
     <i className=" logo fa-regular fa-user"></i>
 
