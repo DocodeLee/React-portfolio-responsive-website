@@ -1,0 +1,46 @@
+.experience-container{
+    margin: 4rem 0;
+    position: relative;
+}
+.experience-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.link-container{
+    width:100%;
+    height:auto;
+   
+    
+}
+.link{
+   
+  color:#e7ffb3;
+  text-decoration: none;
+  
+}
+.linkbox{
+    gap: 1rem;
+    justify-content: space-between;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   
+    position: relative;
+}
+@media(max-width: 768px){
+
+    .link{
+        width: 80%;
+        font-size: 1rem;
+        line-height: 0.2;
+
+      }
+      .linkbox{
+        list-style-type: none;
+        display: flex;
+        flex-direction:column;
+        gap: 0.2rem;
+      }
+}
