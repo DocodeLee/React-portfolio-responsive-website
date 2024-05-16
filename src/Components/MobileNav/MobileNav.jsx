@@ -11,6 +11,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
   onClick={toggleMenu}  >
     <div className="mobile-menu-container">
     <i className=" logo fa-regular fa-user"></i>
+    
 
     <ul>
         <li>
