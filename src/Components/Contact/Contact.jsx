@@ -15,11 +15,11 @@ const Contact = () => {
 <div className='contact-content'>
 <div style={{flex: 1}}>
 <div className='contact-details-card'>
-   <img  className="icon" src={mailimg}/>
+   <img  className="icon" src={mailimg} alt='' />
     <p>www.leavingbird1998@gmail.com</p>
   </div>
         <div className='contact-details-card'>
-        <img className="icon"  src={gitimg}/>
+        <img className="icon"  src={gitimg} alt='' />
         <p>https://github.com/DocodeLee</p> 
         </div>
   </div>
