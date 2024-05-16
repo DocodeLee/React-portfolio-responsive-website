@@ -92,8 +92,8 @@ export const WORK_EXPERIENCE=[
         responsibilities:
         [
             
-            "React Gym APp : I love to work out, So I maede Guide-Line for workout",
-            "React To Do app : In here you can Manage (save) Your Todo List",
+            "React Gym App : I love to work out, So I maede Guide-Line for workout",
+            "React To Do App : In here you can Manage (save) Your Todo List",
             "My First Homepage : I just upgrade Homepage As My Version but still scatch",          
             "Fake Google: Learning Html and CSS",
            
